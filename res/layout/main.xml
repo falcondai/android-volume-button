@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Volume" />
+
+    <Button
+        android:id="@+id/raise_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Raise Volume" />
+
+    <Button
+        android:id="@+id/lower_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lower Volume" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ringer Normal/Vibrate Switch" />
+
+    <ToggleButton
+        android:id="@+id/vibrate_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Normal Ringer"
+        android:textOn="Vibrate Ringer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media Volume" />
+
+    <SeekBar
+        android:id="@+id/volume_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>
